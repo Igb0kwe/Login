@@ -40,6 +40,7 @@ main {
     overflow: hidden;
     transition: all 0.3s ease;
     white-space: nowrap;
+    border-top-right-radius: 3%;
 }
 
 .sidebar-item{
