@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    background-image: url('./bg.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+#menubar1 {
+    fill: white;
+    height: 38px;
+    width: 38px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#menubar {
+    fill: white;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+
+#sidebar {
+    width: 0px;
+    height: 100vh;
+    background-color:rgb(0, 114, 51);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.sidebar-item{
+    text-decoration: none;   
+    color: white;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-item > div {
+    padding: 0 5px;
+}
+
+.sidebar-item svg{
+flex-shrink: 0;
+}
+
+.sidebar-item:hover {
+    border-radius: 5%;
+    align-items: center;
+    padding: 5px;
+    background-color:rgb(1, 71, 32);
+}
+
+.sidebar-container {
+    width: 90%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}

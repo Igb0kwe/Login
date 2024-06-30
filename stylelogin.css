@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-family: "Montserrat", sans-serif;
+    background-image: url('./bg.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+  
+.bg {
+	filter: blur(10px);
+}
+
+  .container {
+	justify-content: center;
+	position: relative;
+	padding: 30px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.288);
+	width: 300px;
+	height:400px;
+	backdrop-filter: blur(3px);
+  }
+  
+  
+  h1 {
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 30px;
+  }
+  
+  .input-field {
+	text-align: center;
+	margin-bottom: 25px;
+  }
+  
+  .input-field input {
+	align-items: stretch;
+	background-color: #ffffff;
+	justify-content: center;
+	width: 60%;
+	padding: 10px;
+	border: none;
+	border-radius: 5%;
+  }
+
+  .input-field:hover{
+	box-shadow: 0 0 10px rgb(0, 114, 51);
+	width: 60%;
+	padding: 10px;
+  }
+
+  .input-field input:focus {
+	outline: none;
+	box-shadow: 0 0 10px rgb(0, 114, 51);
+	border-top: 0px solid #ffffff;
+	border-left: 0px solid #ffffff;
+	border-right: 0px solid #ffffff;
+	border-bottom: 10px solid rgb(0, 114, 51)d;
+  }
+    
+  button { 
+	width: 100px;
+	text-align: center;
+	background-color: rgb(0, 114, 51);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 3px;
+	border: none;
+	cursor:pointer;
+	box-shadow: 0 0 10px #3a7cc9;
+	display: block; 
+	margin: auto;
+  }
+
+  button:hover {
+	color: white;
+	background-color:rgb(1, 71, 32);
+  }
+  
+  .password-toggle {
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#errorMessage {
+	justify-items: center;
+	margin-bottom: 5px;
+}
