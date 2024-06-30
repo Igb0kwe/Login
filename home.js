@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // errorMessage.classList.add("error");
     } else {
       // Redirect to sidebar.html on successful validation
-      window.location.href = "sidebar.html";
+      window.location.href = "home.html";
     }
   });
 });
