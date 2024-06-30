@@ -53,12 +53,6 @@ body {
 	border-radius: 5%;
   }
 
-  .input-field:hover{
-	box-shadow: 0 0 10px rgb(0, 114, 51);
-	width: 60%;
-	padding: 10px;
-  }
-
   .input-field input:focus {
 	outline: none;
 	box-shadow: 0 0 10px rgb(0, 114, 51);
