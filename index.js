@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (username !== "virus" || password !== "100") {
       errorMessage.textContent = "!!INVALID LOGIN!!";
       errorMessage.style.fontWeight = "bold";
-      errorMessage.style.color = "black"; // Set the error message text color to red
+      errorMessage.style.color = "red"; // Set the error message text color to red
 
       // Optional: Add a class for styling the error message container (if applicable)
       // errorMessage.classList.add("error");
