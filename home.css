@@ -29,6 +29,10 @@ main {
     fill:rgb(0, 0, 0)
 }
 
+#menubar1:focus { 
+  outline: none !important;
+}
+
 #menubar {
     fill: white;
     height: 20px;
