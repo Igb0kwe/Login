@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
       event.preventDefault(); // Prevent form submission
 
 
-    } else if (username !== "virus" || password !== "100") {
+    } else if (username !== "admin" || password !== "admin") {
       errorMessage.textContent = "!! INVALID LOGIN !!";
       errorMessage.style.fontWeight = "bold";
       errorMessage.style.color = "red"; // Set the error message text color to red
