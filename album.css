@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-image: url('./bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.albumcontent {
+    justify-content: center;
+    align-items: center;
+    margin: 1vh 1vw;
+    gap: 3rem;
+}
+
+.albumcontent .head{
+    margin: 0 45%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+#albumhead {
+    border: 2px solid rgb(255, 255, 255);
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.albumcontent > div{
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.album{
+    height: auto;
+    width: 10%;
+    justify-self: center;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 1rem;
+}
+
+.album:hover {
+    border: none;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.album:focus {
+    transform: scale(1);
+}
+
+.collage {
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#album2pic {
+    width: 500px;
+    height: 500px;
+    background: white;
+    z-index: 102;
+    transition: all 0.2s ease;
+    display: none;
+}
