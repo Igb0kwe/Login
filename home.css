@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-html {    
-    font-size: small;
+html {
     font-family: "Montserrat", sans-serif;
 }
 
@@ -183,12 +182,13 @@ nav {
     float: right;
     width: 50vw;
     height: auto;
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     border-radius: 1rem;
     border: 2px solid rgb(51, 51, 51);
 }
 
 .right p {
+    color: rgb(0, 0, 0);
     text-align: center;
     margin: 10px;
     font-weight: bold;
@@ -203,6 +203,8 @@ nav {
 }
 
 .left  p {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
     margin: 10px;
     font-style: italic;
 
