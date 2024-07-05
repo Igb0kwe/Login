@@ -183,6 +183,7 @@ nav {
 }
 
 .content {
+    background-color: rgb(51, 51, 51);
     justify-content: center;
     display: flex;
     margin: 1vh 1vw;
@@ -190,11 +191,10 @@ nav {
 }
 
 .right {
+    float: right;
     width: 50vw;
     height: 55vh;
     background: rgb(255, 255, 255);
-    position: sticky;
-    top: 12vh;
     border-radius: 1rem;
     border: 2px solid rgb(51, 51, 51);
 }
@@ -207,8 +207,7 @@ nav {
 }
 
 .left {
-    background-color: rgb(51, 51, 51);
-    width: 50vw;
+    width: 100vw;
     border-radius: 1rem;
     border-radius: 1rem;
     padding: 8px 5px;
