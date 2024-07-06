@@ -16,6 +16,7 @@ body {
     width: 30px;
     cursor: pointer;
     margin: 10px;
+    z-index: 2;
 }
 
 #menubar {
@@ -97,7 +98,6 @@ nav {
     border-bottom: 0.5vh solid rgb(255, 255, 255);
     position: sticky;
     top: 0;
-    z-index: 2;
 }
 
 .nav-left{
@@ -179,8 +179,10 @@ nav {
 }
 
 .right {
-    float: right;
-    width: 50vw;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin: 0 25vw;
     height: auto;
     background: rgb(0, 0, 0);
     border-radius: 1rem;
