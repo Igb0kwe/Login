@@ -218,8 +218,9 @@ nav {
     margin: 5px;
     margin-bottom: 10px;
     border: 1px solid white;
-    height: auto;
-    width: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 1rem;
 }
 
 .left {
