@@ -53,13 +53,13 @@ document.addEventListener("DOMContentLoaded", () => {
   side1.addEventListener('click', redirectToNewPage);
 
   function redirectToNewPage() {
-    window.location.href = "lifestyle.html";
+    window.location.href = "home.html";
   }
   
   side2.addEventListener('click', redirectToNewPage);
 
   function redirectToNewPage() {
-    window.location.href = "album.html";
+    window.location.href = "about.html";
   }
   
   side3.addEventListener('click', redirectToNewPage);
